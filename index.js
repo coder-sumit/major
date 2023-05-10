@@ -53,7 +53,7 @@ app.use(session({
        maxAge: (1000*60*100)
     },
     store: MongoStore.create({
-        mongoUrl: 'mongodb://localhost/codeial_development',
+        mongoUrl: 'mongodb+srv://mainuser:eBcBwkAtqUXUBMoQ@ccluster0.5fbdspu.mongodb.net/codecommunity?retryWrites=true&w=majority',
         autoRemove: 'disabled'
       },
       function(err){
