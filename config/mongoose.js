@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/codeial_development');
+let url = `mongodb+srv://mainuser:eBcBwkAtqUXUBMoQ@ccluster0.5fbdspu.mongodb.net/codecommunity?retryWrites=true&w=majority`;
+
+
+
+mongoose.connect(url);
 
 const db = mongoose.connection;
 

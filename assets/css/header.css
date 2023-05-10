@@ -43,4 +43,5 @@ nav ul li a {
 nav ul li a img {
   width: 23px;
   margin-right: 3px;
+  border-radius: 50%;
 }
